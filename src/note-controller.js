@@ -1,13 +1,12 @@
 (function(exports) {
 
   function NoteController(noteList) {
-    this._noteList = noteList
-  };
+    this._noteList = noteList;
+  }
 
   NoteController.prototype.getHTML = function(noteListView) {
-    var myNotes = noteListView.returnHTML()
+    var myNotes = noteListView.returnHTML();
     var elem = document.getElementById('app');
-    console.log(elem)
     elem.innerHTML = myNotes;
   };
 

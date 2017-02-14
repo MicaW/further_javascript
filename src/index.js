@@ -1,9 +1,9 @@
 
-var noteList = new List()
+var noteList = new List();
 
-noteList.addNote('Favourite drink: seltzer')
+noteList.addNote('Favourite drink: seltzer');
 
-var controller = new NoteController(noteList)
-var view = new NoteListView(noteList)
+var controller = new NoteController(noteList);
+var view = new NoteListView(noteList);
 
-controller.getHTML(view)
+controller.getHTML(view);
