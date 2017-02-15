@@ -17,6 +17,6 @@
 })(this);
 
 
-var noteList = new List();
-var controller = new NoteController(noteList);
-controller.getHTML(view);
+// var noteList = new List();
+// var controller = new NoteController(noteList);
+// controller.getHTML(view);
