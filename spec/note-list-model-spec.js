@@ -5,7 +5,7 @@ function listHasArrayOfNotes() {
   assert.isTrue(Array.isArray(newList.notes()));
 }
 listHasArrayOfNotes()
-
+console.log("listHasArrayOfNotes")
 
 
 // list has a method that creates and stores a new single note
@@ -17,3 +17,4 @@ function listCanCreateAndStoreNotes() {
   assert.isTrue(newList.notes()[1].text() === 'This is my other note');
 };
 listCanCreateAndStoreNotes()
+console.log("listCanCreateAndStoreNotes")

@@ -4,5 +4,5 @@ function newNoteTest() {
   var newNote = new Note("string of text");
   assert.isTrue(newNote.text() === "string of text");
 };
-
 newNoteTest();
+console.log("newNoteTest")

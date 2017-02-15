@@ -7,6 +7,7 @@ function singleNoteView() {
 }
 
 singleNoteView()
+console.log("singleNoteView")
 
 // returnSingleNote returns a string of html for the note
   function returnSingleNoteHTML() {
@@ -14,3 +15,4 @@ singleNoteView()
   }
 
 returnSingleNoteHTML()
+console.log("returnSingleNoteHTML")
